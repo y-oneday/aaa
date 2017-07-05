@@ -1,0 +1,217 @@
+body,
+html {
+  font-family: "Microsoft YaHei";
+  background: #EFEFEF;
+  overflow-x: hidden;
+}
+input,
+select,
+button,
+h5,
+div,
+section,
+li,
+a,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover,
+a:focus {
+  outline: none;
+  text-decoration: none;
+  color: #000;
+}
+#header {
+  background: #FF841D;
+  width: 100%;
+  height: 50px;
+  position: relative;
+  line-height: 50px;
+}
+#header .logo {
+  position: absolute;
+  left: 10px;
+}
+#header .logo img {
+  width: 200px;
+}
+#header .download_app {
+  position: absolute;
+  right: 10px;
+}
+#header .download_app img {
+  height: 30px;
+}
+#search {
+  width: 100%;
+  padding: 10px;
+  background: #fff;
+}
+#search form {
+  position: relative;
+  padding-right: 70px;
+}
+#search form input {
+  font-size: 12px;
+  border: 0;
+  width: 100%;
+  background: #F1F1F1;
+  height: 30px;
+  border-radius: 15px;
+  text-indent: 2em;
+}
+#search form a {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 30px;
+  border-radius: 15px;
+  width: 60px;
+  color: #fff;
+  background: #FF841D;
+  padding: 0;
+  line-height: 30px;
+}
+#commodity_title {
+  background: #EFEFEF;
+  position: relative;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+#commodity_title .breadcrumb {
+  margin-bottom: 0px;
+}
+#commodity_title .breadcrumb li:before {
+  content: "";
+  padding: 0;
+}
+#commodity_title .breadcrumb li:after {
+  content: ">";
+}
+#commodity_title .breadcrumb .overMain {
+  width: 30%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: bottom;
+}
+#commodity_title .btn-default {
+  position: absolute;
+  top: 3px;
+  right: 10px;
+  height: 30px;
+  background: #E6E6E6;
+}
+#commodityDetails .details {
+  background-color: #fff;
+  width: 100%;
+}
+#commodityDetails .details h5 {
+  font-size: 16px;
+  padding: 25px;
+  text-align: center;
+}
+#commodityDetails .details > img {
+  display: block;
+  margin: 0 auto;
+  width: 170px;
+}
+#commodityDetails .details_nav .nav li {
+  border: 1px solid #d27e45;
+  border-right: none;
+  padding: 0;
+  text-align: center;
+}
+#commodityDetails .details_nav .nav li a {
+  border: none;
+  border-radius: 0;
+  margin-right: -2px;
+  color: #fff;
+  padding: 6px 15px;
+  background-color: #ffc527;
+}
+#commodityDetails .details_nav .nav li a:hover {
+  background-color: #ff9916;
+}
+#commodityDetails .details_nav .nav li:nth-child(1) {
+  border-left: none;
+}
+#commodityDetails .details_nav .tab-content #home {
+  background-color: #fff;
+}
+#commodityDetails .details_nav .tab-content #home table {
+  height: 40px;
+  line-height: 40px;
+}
+#commodityDetails .details_nav .tab-content #home p {
+  border-top: 1px solid #ccc;
+  font-size: 13px;
+  padding: 10px 0;
+  color: #aaa;
+}
+#commodityDetails .details_nav .tab-content #messages {
+  background-color: #fff;
+  overflow: hidden;
+}
+#commodityDetails .details_nav .tab-content #messages h5 {
+  background-color: #dbdbdb;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 14px;
+}
+#commodityDetails .details_nav .tab-content #messages span {
+  color: #aaa;
+  font-size: 12px;
+}
+#commodityDetails .details_nav .tab-content #messages .name {
+  float: left;
+}
+#commodityDetails .details_nav .tab-content #messages .time {
+  float: right;
+}
+#commodityDetails .details_nav .tab-content #messages .from {
+  float: right;
+}
+#commodityDetails .details_nav .tab-content #messages p {
+  margin-top: 30px;
+  font-size: 12px;
+  color: #000;
+}
+.more_discount {
+  padding: 5px 10px 15px 10px;
+  background-color: #fff;
+}
+.more_discount p {
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: #e2e2e2;
+}
+#footer {
+  height: 100px;
+  text-align: center;
+}
+#footer .footer_top > div {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-left: 0px;
+  text-align: center;
+}
+#footer .footer_top > div:last-child img {
+  width: 15px;
+  vertical-align: top;
+}
+#footer .footer_bottom a {
+  color: red;
+}
+#footer .footer_bottom p {
+  color: #ccc;
+}
